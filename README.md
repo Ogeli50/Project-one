@@ -41,7 +41,6 @@ In this proposal, we intend to compare the distribution of hourly and salaried p
 - We will suggest areas for future research and intervention to support inclusive economic growth and workforce development in Huntsville.
 
 ## 7. References
-- List of sources cited in the proposal.
 
-## 8. Appendices (if necessary)
-- Include supplementary materials such as data tables, charts, or additional analyses.
+
+
