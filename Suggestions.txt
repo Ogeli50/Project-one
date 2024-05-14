@@ -1,1 +1,4 @@
 Add your suggestions here\!
+
+
+We use Nova and T-Text to create graphs for our data. With Nova, we can include up to 5 variables, while T-Text only allows for 2.
