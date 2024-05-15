@@ -1,64 +1,69 @@
-﻿Label (Grouping),ra,"Madison County, Alabama!!Percent!!Estimate","Madison County, Alabama!!Male!!Estimate","Madison County, Alabama!!Percent Male!!Estimate","Madison County, Alabama!!Female!!Estimate","Madison County, Alabama!!Percent Female!!Estimate"
-AGE BY EDUCATIONAL ATTAINMENT,,,,,,
-    Population 18 to 24 years,"33,799",(X),"17,396",(X),"16,403",(X)
-        Less than high school graduate,"3,206",9.50%,"1,764",10.10%,"1,442",8.80%
-        High school graduate (includes equivalency),"9,557",28.30%,"5,654",32.50%,"3,903",23.80%
-        Some college or associate's degree,"16,587",49.10%,"8,009",46.00%,"8,578",52.30%
-        Bachelor's degree or higher,"4,449",13.20%,"1,969",11.30%,"2,480",15.10%
-    Population 25 years and over,"252,672",(X),"120,693",(X),"131,979",(X)
-        Less than 9th grade,"5,894",2.30%,"2,580",2.10%,"3,314",2.50%
-"        9th to 12th grade, no diploma","14,507",5.70%,"8,673",7.20%,"5,834",4.40%
-        High school graduate (includes equivalency),"50,509",20.00%,"22,688",18.80%,"27,821",21.10%
-"        Some college, no degree","51,086",20.20%,"22,216",18.40%,"28,870",21.90%
-        Associate's degree,"20,747",8.20%,"8,070",6.70%,"12,677",9.60%
-        Bachelor's degree,"67,977",26.90%,"33,188",27.50%,"34,789",26.40%
-        Graduate or professional degree,"41,952",16.60%,"23,278",19.30%,"18,674",14.10%
-        High school graduate or higher,"232,271",91.90%,(X),90.70%,(X),93.10%
-        Bachelor's degree or higher,"109,929",43.50%,(X),46.80%,(X),40.50%
-    Population 25 to 34 years,"51,828",(X),"26,022",(X),"25,806",(X)
-        High school graduate or higher,"47,770",92.20%,"23,287",89.50%,"24,483",94.90%
-        Bachelor's degree or higher,"20,593",39.70%,"9,942",38.20%,"10,651",41.30%
-    Population 35 to 44 years,"45,578",(X),"22,283",(X),"23,295",(X)
-        High school graduate or higher,"42,849",94.00%,"20,272",91.00%,"22,577",96.90%
-        Bachelor's degree or higher,"21,595",47.40%,"10,601",47.60%,"10,994",47.20%
-    Population 45 to 64 years,"99,601",(X),"48,232",(X),"51,369",(X)
-        High school graduate or higher,"93,067",93.40%,"44,827",92.90%,"48,240",93.90%
-        Bachelor's degree or higher,"47,266",47.50%,"24,534",50.90%,"22,732",44.30%
-    Population 65 years and over,"55,665",(X),"24,156",(X),"31,509",(X)
-        High school graduate or higher,"48,585",87.30%,"21,054",87.20%,"27,531",87.40%
-        Bachelor's degree or higher,"20,475",36.80%,"11,389",47.10%,"9,086",28.80%
-RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT,,,,,,
-    White alone,"177,769",(X),"86,965",(X),"90,804",(X)
-        High school graduate or higher,"166,833",93.80%,"81,209",93.40%,"85,624",94.30%
-        Bachelor's degree or higher,"83,216",46.80%,"45,133",51.90%,"38,083",41.90%
-"    White alone, not Hispanic or Latino","172,522",(X),"84,377",(X),"88,145",(X)
-        High school graduate or higher,"162,306",94.10%,"79,039",93.70%,"83,267",94.50%
-        Bachelor's degree or higher,"80,901",46.90%,"43,906",52.00%,"36,995",42.00%
-    Black alone,"56,416",(X),"25,159",(X),"31,257",(X)
-        High school graduate or higher,"49,877",88.40%,"21,110",83.90%,"28,767",92.00%
-        Bachelor's degree or higher,"18,982",33.60%,"7,694",30.60%,"11,288",36.10%
-    American Indian or Alaska Native alone,N,(X),N,(X),N,(X)
-        High school graduate or higher,N,N,N,N,N,N
-        Bachelor's degree or higher,N,N,N,N,N,N
-    Asian alone,"6,515",(X),"2,978",(X),"3,537",(X)
-        High school graduate or higher,"5,996",92.00%,"2,876",96.60%,"3,120",88.20%
-        Bachelor's degree or higher,"3,989",61.20%,"2,134",71.70%,"1,855",52.40%
-    Native Hawaiian and Other Pacific Islander alone,N,(X),N,(X),N,(X)
-        High school graduate or higher,N,N,N,N,N,N
-        Bachelor's degree or higher,N,N,N,N,N,N
-    Some other race alone,"3,677",(X),"2,113",(X),"1,564",(X)
-        High school graduate or higher,"2,505",68.10%,"1,290",61.10%,"1,215",77.70%
-        Bachelor's degree or higher,461,12.50%,224,10.60%,237,15.20%
-    Two or more races,"7,506",(X),"3,103",(X),"4,403",(X)
-        High school graduate or higher,"6,300",83.90%,"2,609",84.10%,"3,691",83.80%
-        Bachelor's degree or higher,"3,137",41.80%,"1,171",37.70%,"1,966",44.70%
-    Hispanic or Latino Origin,"10,241",(X),"4,927",(X),"5,314",(X)
-        High school graduate or higher,"7,999",78.10%,"3,645",74.00%,"4,354",81.90%
-        Bachelor's degree or higher,"3,313",32.40%,"1,553",31.50%,"1,760",33.10%
-MEDIAN EARNINGS IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS),,,,,,
-    Population 25 years and over with earnings,"45,096",(X),"55,904",(X),"33,598",(X)
-        Less than high school graduate,"18,177",(X),"20,620",(X),"13,508",(X)
-        High school graduate (includes equivalency),"26,333",(X),"32,438",(X),"20,764",(X)
-        Some college or associate's degree,"31,915",(X),"38,985",(X),"26,525",(X)
-        Bachelor's degree,"61,631",(X),"76,889",(X),"46,443",(X)
-        Graduate or professional degree,"91,115",(X),"103,575",(X),"65,055",(X)
+﻿Label (Grouping),"Madison County, Alabama!!Total!!Estimate","Madison County, Alabama!!Percent!!Estimate","Madison County, Alabama!!Male!!Estimate","Madison County, Alabama!!Percent Male!!Estimate","Madison County, Alabama!!Female!!Estimate","Madison County, Alabama!!Percent Female!!Estimate",,,,,
+AGE BY EDUCATIONAL ATTAINMENT,,,,,,,,,,,
+    Population 18 to 24 years,"33,799",(X),"17,396",(X),"16,403",(X),,,,,
+        Less than high school graduate,"3,206",9.50%,"1,764",10.10%,"1,442",8.80%,,,,,
+        High school graduate (includes equivalency),"9,557",28.30%,"5,654",32.50%,"3,903",23.80%,,,,,
+        Some college or associate's degree,"16,587",49.10%,"8,009",46.00%,"8,578",52.30%,,,,,
+        Bachelor's degree or higher,"4,449",13.20%,"1,969",11.30%,"2,480",15.10%,,,,,
+    Population 25 years and over,"252,672",(X),"120,693",(X),"131,979",(X),,,,,
+        Less than 9th grade,"5,894",2.30%,"2,580",2.10%,"3,314",2.50%,,,,,
+"        9th to 12th grade, no diploma","14,507",5.70%,"8,673",7.20%,"5,834",4.40%,,,,,
+        High school graduate (includes equivalency),"50,509",20.00%,"22,688",18.80%,"27,821",21.10%,,,,,
+"        Some college, no degree","51,086",20.20%,"22,216",18.40%,"28,870",21.90%,,,,,
+        Associate's degree,"20,747",8.20%,"8,070",6.70%,"12,677",9.60%,,,,,
+        Bachelor's degree,"67,977",26.90%,"33,188",27.50%,"34,789",26.40%,,,,,
+        Graduate or professional degree,"41,952",16.60%,"23,278",19.30%,"18,674",14.10%,,,,,
+        High school graduate or higher,"232,271",91.90%,(X),90.70%,(X),93.10%,,,,,
+        Bachelor's degree or higher,"109,929",43.50%,(X),46.80%,(X),40.50%,,,,,
+    Population 25 to 34 years,"51,828",(X),"26,022",(X),"25,806",(X),,,,,
+        High school graduate or higher,"47,770",92.20%,"23,287",89.50%,"24,483",94.90%,,,,,
+        Bachelor's degree or higher,"20,593",39.70%,"9,942",38.20%,"10,651",41.30%,,,,,
+    Population 35 to 44 years,"45,578",(X),"22,283",(X),"23,295",(X),,,,,
+        High school graduate or higher,"42,849",94.00%,"20,272",91.00%,"22,577",96.90%,,,,,
+        Bachelor's degree or higher,"21,595",47.40%,"10,601",47.60%,"10,994",47.20%,,,,,
+    Population 45 to 64 years,"99,601",(X),"48,232",(X),"51,369",(X),,,,,
+        High school graduate or higher,"93,067",93.40%,"44,827",92.90%,"48,240",93.90%,,,,,
+        Bachelor's degree or higher,"47,266",47.50%,"24,534",50.90%,"22,732",44.30%,,,,,
+    Population 65 years and over,"55,665",(X),"24,156",(X),"31,509",(X),,,,,
+        High school graduate or higher,"48,585",87.30%,"21,054",87.20%,"27,531",87.40%,,,,,
+        Bachelor's degree or higher,"20,475",36.80%,"11,389",47.10%,"9,086",28.80%,,,,,
+RACE AND HISPANIC OR LATINO ORIGIN BY EDUCATIONAL ATTAINMENT,,,,,,,,,,,
+    White alone,"177,769",(X),"86,965",(X),"90,804",(X),,,,,
+        High school graduate or higher,"166,833",93.80%,"81,209",93.40%,"85,624",94.30%,,,,,
+        Bachelor's degree or higher,"83,216",46.80%,"45,133",51.90%,"38,083",41.90%,,,,,
+"    White alone, not Hispanic or Latino","172,522",(X),"84,377",(X),"88,145",(X),,,,,
+        High school graduate or higher,"162,306",94.10%,"79,039",93.70%,"83,267",94.50%,,,,,
+        Bachelor's degree or higher,"80,901",46.90%,"43,906",52.00%,"36,995",42.00%,,,,,
+    Black alone,"56,416",(X),"25,159",(X),"31,257",(X),,,,,
+        High school graduate or higher,"49,877",88.40%,"21,110",83.90%,"28,767",92.00%,,,,,
+        Bachelor's degree or higher,"18,982",33.60%,"7,694",30.60%,"11,288",36.10%,,,,,
+    American Indian or Alaska Native alone,N,(X),N,(X),N,(X),,,,,
+        High school graduate or higher,N,N,N,N,N,N,,,,,
+        Bachelor's degree or higher,N,N,N,N,N,N,,,,,
+    Asian alone,"6,515",(X),"2,978",(X),"3,537",(X),,,,,
+        High school graduate or higher,"5,996",92.00%,"2,876",96.60%,"3,120",88.20%,,,,,
+        Bachelor's degree or higher,"3,989",61.20%,"2,134",71.70%,"1,855",52.40%,,,,,
+    Native Hawaiian and Other Pacific Islander alone,N,(X),N,(X),N,(X),,,,,
+        High school graduate or higher,N,N,N,N,N,N,,,,,
+        Bachelor's degree or higher,N,N,N,N,N,N,,,,,
+    Some other race alone,"3,677",(X),"2,113",(X),"1,564",(X),,,,,
+        High school graduate or higher,"2,505",68.10%,"1,290",61.10%,"1,215",77.70%,,,,,
+        Bachelor's degree or higher,461,12.50%,224,10.60%,237,15.20%,,,,,
+    Two or more races,"7,506",(X),"3,103",(X),"4,403",(X),,,,,
+        High school graduate or higher,"6,300",83.90%,"2,609",84.10%,"3,691",83.80%,,,,,
+        Bachelor's degree or higher,"3,137",41.80%,"1,171",37.70%,"1,966",44.70%,,,,,
+    Hispanic or Latino Origin,"10,241",(X),"4,927",(X),"5,314",(X),,,,,
+        High school graduate or higher,"7,999",78.10%,"3,645",74.00%,"4,354",81.90%,,,,,
+        Bachelor's degree or higher,"3,313",32.40%,"1,553",31.50%,"1,760",33.10%,,,,,
+MEDIAN EARNINGS IN THE PAST 12 MONTHS (IN 2018 INFLATION-ADJUSTED DOLLARS),,,,,,,,,,,
+    Population 25 years and over with earnings,"45,096",(X),"55,904",(X),"33,598",(X),,,,,
+        Less than high school graduate,"18,177",(X),"20,620",(X),"13,508",(X),,,,,
+        High school graduate (includes equivalency),"26,333",(X),"32,438",(X),"20,764",(X),,,,,
+        Some college or associate's degree,"31,915",(X),"38,985",(X),"26,525",(X),,,,,
+        Bachelor's degree,"61,631",(X),"76,889",(X),"46,443",(X),,,,,
+        Graduate or professional degree,"91,115",(X),"103,575",(X),"65,055",(X),,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,

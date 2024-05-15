@@ -14,7 +14,7 @@ This proposal outlines a comprehensive study of workforce transformations in Hun
 - Provide an overview of Huntsville, Alabama, its economic landscape, and the significance of its workforce dynamics.
 
 ## 2. Objective
-- The aim of the proposal is to examine the transformation of the Huntsville workforce in terms of hourly vs. salaried positions, socioeconomic dynamics, unemployment rates, consumerism, and educational attainment, comparing pre- and post-COVID eras.
+- The aim of the proposal is to examine the transformation of the Huntsville workforce in terms of hourly vs. salaried positions, socioeconomic dynamics, unemployment rates, and educational attainment, comparing pre- and post-COVID eras.
 
 ## 3. Literature Review
 - Review existing literature on workforce transformations in similar regions or industries.
@@ -42,6 +42,5 @@ In this proposal, we intend to compare the distribution of hourly and salaried p
 
 ## 7. References
 
-BLS, beta.bls.gov
 
 
