@@ -1,54 +1,54 @@
-﻿Label (Grouping),United States!!Estimate,United States!!Percent,Alabama!!Estimate,Alabama!!Percent,"Madison County, Alabama!!Estimate","Madison County, Alabama!!Percent"
-EMPLOYMENT STATUS,,,,,,
-    Population 16 years and over,"262,185,951","262,185,951","3,930,579","3,930,579","296,893","296,893"
-        In labor force,"165,907,527",63.30%,"2,231,613",56.80%,"187,943",63.30%
-            Civilian labor force,"164,898,275",62.90%,"2,219,106",56.50%,"186,779",62.90%
-                Employed,"156,783,165",59.80%,"2,094,271",53.30%,"176,976",59.60%
-                Unemployed,"8,115,110",3.10%,"124,835",3.20%,"9,803",3.30%
-OCCUPATION,,,,,,
-    Civilian employed population 16 years and over,"156,783,165","156,783,165","2,094,271","2,094,271","176,976","176,976"
-"        Management, business, science, and arts occupations","60,488,289",38.60%,"737,154",35.20%,"88,254",49.90%
-        Service occupations,"27,967,677",17.80%,"335,896",16.00%,"24,760",14.00%
-        Sales and office occupations,"33,556,165",21.40%,"448,626",21.40%,"35,537",20.10%
-"        Natural resources, construction, and maintenance occupations","13,843,390",8.80%,"204,962",9.80%,"10,903",6.20%
-"        Production, transportation, and material moving occupations","20,927,644",13.30%,"367,633",17.60%,"17,522",9.90%
-INDUSTRY,,,,,,
-    Civilian employed population 16 years and over,"156,783,165","156,783,165","2,094,271","2,094,271","176,976","176,976"
-"        Agriculture, forestry, fishing and hunting, and mining","2,765,614",1.80%,"27,779",1.30%,877,0.50%
-        Construction,"10,508,117",6.70%,"148,005",7.10%,"7,835",4.40%
-        Manufacturing,"15,712,879",10.00%,"295,039",14.10%,"20,870",11.80%
-        Wholesale trade,"3,882,509",2.50%,"54,251",2.60%,"2,000",1.10%
-        Retail trade,"17,317,921",11.00%,"233,006",11.10%,"19,174",10.80%
-"        Transportation and warehousing, and utilities","8,684,217",5.50%,"118,685",5.70%,"5,314",3.00%
-        Information,"3,043,701",1.90%,"31,038",1.50%,"3,655",2.10%
-"        Finance and insurance, and real estate and rental and leasing","10,161,380",6.50%,"111,736",5.30%,"7,161",4.00%
-"        Professional, scientific, and management, and administrative and waste management services","18,398,309",11.70%,"211,524",10.10%,"36,246",20.50%
-"        Educational services, and health care and social assistance","36,174,708",23.10%,"466,839",22.30%,"38,767",21.90%
-"        Arts, entertainment, and recreation, and accommodation and food services","15,203,909",9.70%,"179,783",8.60%,"12,264",6.90%
-"        Other services, except public administration","7,712,879",4.90%,"106,061",5.10%,"6,214",3.50%
-        Public administration,"7,217,022",4.60%,"110,525",5.30%,"16,599",9.40%
-INCOME AND BENEFITS (IN 2018 INFLATION-ADJUSTED DOLLARS),,,,,,
-    Total households,"121,520,180","121,520,180","1,855,184","1,855,184","152,723","152,723"
-"        Less than $10,000","7,598,669",6.30%,"169,158",9.10%,"9,579",6.30%
-"        $10,000 to $14,999","5,267,344",4.30%,"110,519",6.00%,"7,011",4.60%
-"        $15,000 to $24,999","10,936,844",9.00%,"219,893",11.90%,"14,145",9.30%
-"        $25,000 to $34,999","10,786,234",8.90%,"188,260",10.10%,"11,746",7.70%
-"        $35,000 to $49,999","15,029,642",12.40%,"241,551",13.00%,"18,897",12.40%
-"        $50,000 to $74,999","21,097,947",17.40%,"321,964",17.40%,"27,302",17.90%
-"        $75,000 to $99,999","15,254,871",12.60%,"222,472",12.00%,"18,329",12.00%
-"        $100,000 to $149,999","18,234,918",15.00%,"224,720",12.10%,"22,249",14.60%
-"        $150,000 to $199,999","8,033,342",6.60%,"82,375",4.40%,"12,671",8.30%
-"        $200,000 or more","9,280,369",7.60%,"74,272",4.00%,"10,794",7.10%
-        Median household income (dollars),"61,937",(X),"49,861",(X),"63,111",(X)
-        Mean household income (dollars),"87,864",(X),"69,091",(X),"85,717",(X)
-        With earnings,"94,231,382",77.50%,"1,321,656",71.20%,"118,857",77.80%
-            Mean earnings (dollars),"90,091",(X),"72,777",(X),"86,425",(X)
-        With Social Security,"38,458,074",31.60%,"676,391",36.50%,"41,904",27.40%
-            Mean Social Security income (dollars),"19,375",(X),"19,038",(X),"20,269",(X)
-        With retirement income,"22,857,019",18.80%,"400,612",21.60%,"33,748",22.10%
-            Mean retirement income (dollars),"27,484",(X),"24,227",(X),"32,270",(X)
-        With Supplemental Security Income,"6,558,210",5.40%,"128,033",6.90%,"7,445",4.90%
-            Mean Supplemental Security Income (dollars),"9,841",(X),"9,676",(X),"9,440",(X)
-        With cash public assistance income,"2,779,060",2.30%,"28,725",1.50%,"5,653",3.70%
-            Mean cash public assistance income (dollars),"3,004",(X),"2,191",(X),"1,788",(X)
-        With Food Stamp/SNAP benefits in the past 12 months,"13,769,015",11.30%,"247,434",13.30%,"15,969",10.50%
+﻿Label (Grouping),"Madison County, Alabama!!Estimate","Madison County, Alabama!!Percent"
+EMPLOYMENT STATUS,,
+    Population 16 years and over,"296,893","296,893"
+        In labor force,"187,943",63.30%
+            Civilian labor force,"186,779",62.90%
+                Employed,"176,976",59.60%
+                Unemployed,"9,803",3.30%
+OCCUPATION,,
+    Civilian employed population 16 years and over,"176,976","176,976"
+"        Management, business, science, and arts occupations","88,254",49.90%
+        Service occupations,"24,760",14.00%
+        Sales and office occupations,"35,537",20.10%
+"        Natural resources, construction, and maintenance occupations","10,903",6.20%
+"        Production, transportation, and material moving occupations","17,522",9.90%
+INDUSTRY,,
+    Civilian employed population 16 years and over,"176,976","176,976"
+"        Agriculture, forestry, fishing and hunting, and mining",877,0.50%
+        Construction,"7,835",4.40%
+        Manufacturing,"20,870",11.80%
+        Wholesale trade,"2,000",1.10%
+        Retail trade,"19,174",10.80%
+"        Transportation and warehousing, and utilities","5,314",3.00%
+        Information,"3,655",2.10%
+"        Finance and insurance, and real estate and rental and leasing","7,161",4.00%
+"        Professional, scientific, and management, and administrative and waste management services","36,246",20.50%
+"        Educational services, and health care and social assistance","38,767",21.90%
+"        Arts, entertainment, and recreation, and accommodation and food services","12,264",6.90%
+"        Other services, except public administration","6,214",3.50%
+        Public administration,"16,599",9.40%
+INCOME AND BENEFITS (IN 2018 INFLATION-ADJUSTED DOLLARS),,
+    Total households,"152,723","152,723"
+"        Less than $10,000","9,579",6.30%
+"        $10,000 to $14,999","7,011",4.60%
+"        $15,000 to $24,999","14,145",9.30%
+"        $25,000 to $34,999","11,746",7.70%
+"        $35,000 to $49,999","18,897",12.40%
+"        $50,000 to $74,999","27,302",17.90%
+"        $75,000 to $99,999","18,329",12.00%
+"        $100,000 to $149,999","22,249",14.60%
+"        $150,000 to $199,999","12,671",8.30%
+"        $200,000 or more","10,794",7.10%
+        Median household income (dollars),"63,111",(X)
+        Mean household income (dollars),"85,717",(X)
+        With earnings,"118,857",77.80%
+            Mean earnings (dollars),"86,425",(X)
+        With Social Security,"41,904",27.40%
+            Mean Social Security income (dollars),"20,269",(X)
+        With retirement income,"33,748",22.10%
+            Mean retirement income (dollars),"32,270",(X)
+        With Supplemental Security Income,"7,445",4.90%
+            Mean Supplemental Security Income (dollars),"9,440",(X)
+        With cash public assistance income,"5,653",3.70%
+            Mean cash public assistance income (dollars),"1,788",(X)
+        With Food Stamp/SNAP benefits in the past 12 months,"15,969",10.50%
