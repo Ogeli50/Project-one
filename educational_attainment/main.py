@@ -1,7 +1,8 @@
 import pandas as pd
+from scipy.stats import f_oneway
 import matplotlib.pyplot as plt
-Education_2018 = pd. read_csv("../data/Education_2018.csv")
-Education_2022 = pd. read_csv("../data/Education_2022.csv")
+Education_2018 = pd. read_csv("data/Education_2018.csv")
+Education_2022 = pd. read_csv("data/Education_2022.csv")
 
 # Clean up the strings in the 'Label (Grouping)' column for both datasets
 Education_2018['Label (Grouping)'] = Education_2018['Label (Grouping)'].str.replace('\xa0','').str.strip()
@@ -64,8 +65,9 @@ for point, values in selected_data_2022.items():
     print("Value (Column 2) - 2022:", values["Value (Column 2)"])
     print("Value (Column 3) - 2022:", values["Value (Column 3)"])
     print()  
-
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 from scipy.stats import f_oneway
 
 # Read the CSV files
@@ -77,21 +79,22 @@ columns_of_interest = ["Madison County, Alabama!!Male!!Estimate", "Madison Count
 
 # Replace '(X)' and 'N' with NaN
 for col in columns_of_interest:
-    Education_2018[col] = Education_2018[col].replace(['(X)', 'N'], np.nan)
-    Education_2022[col] = Education_2022[col].replace(['(X)', 'N'], np.nan)
-
-# Remove commas and convert to numeric
-for col in columns_of_interest:
-    Education_2018[col] = Education_2018[col].str.replace(',', '').astype(float)
-    Education_2022[col] = Education_2022[col].str.replace(',', '').astype(float)
+    Education_2018[col] = pd.to_numeric(Education_2018[col], errors='coerce')
+    Education_2022[col] = pd.to_numeric(Education_2022[col], errors='coerce')
 
 # Drop rows with NaN values
 Education_2018 = Education_2018.dropna(subset=columns_of_interest)
 Education_2022 = Education_2022.dropna(subset=columns_of_interest)
 
-# Perform the one-way ANOVA test
-f_statistic, p_value = f_oneway(Education_2018[columns_of_interest[0]], Education_2022[columns_of_interest[0]])
 
-# Print the results
-print("F Statistic:", f_statistic)
-print("P-value:", p_value)
+
+# Visualize the data with boxplots
+plt.figure(figsize=(10, 6))
+plt.boxplot([Education_2018[columns_of_interest[0]], Education_2022[columns_of_interest[0]]], labels=['2018', '2022'])
+plt.title('Education Distribution Comparison')
+plt.xlabel('Year')
+plt.ylabel(columns_of_interest[0])
+plt.grid(True)
+plt.show()
+
+
