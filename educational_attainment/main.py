@@ -2,10 +2,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.stats import ttest_ind
+import os
 
 # Read Data Files
-Education_2018 = pd.read_csv("data\Education_2018.csv")
-Education_2022 = pd.read_csv("data\Education_2022.csv")
+Education_2018 = pd.read_csv("../data\Education_2018.csv")
+Education_2022 = pd.read_csv("../data\Education_2022.csv")
 
 # Clean up the strings in the 'Label (Grouping)' column for both datasets
 Education_2018['Label (Grouping)'] = Education_2018['Label (Grouping)'].str.replace('\xa0','').str.strip()
@@ -24,6 +25,11 @@ educational_points = [
     "Gender differences",
     "Educational attainment by income level"
 ]
+
+# Create results directory if it doesn't exist
+results_dir = "results"
+if not os.path.exists(results_dir):
+    os.makedirs(results_dir)
 
 # Dictionary to store selected points and their corresponding values from columns 2 and 3
 selected_data_2018 = {}
@@ -84,3 +90,6 @@ plt.xticks(index + bar_width / 2, points, rotation=90)
 plt.legend()
 plt.tight_layout()
 plt.show()
+
+# Save the plot as an image file
+plt.savefig(os.path.join(results_dir, "years_comparison.png"))

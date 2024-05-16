@@ -27,3 +27,5 @@ Based on the analysis, insights are drawn into the socioeconomic consequences of
 
 By conducting this analysis, I aim to provide a comprehensive understanding of how the COVID-19 pandemic has affected socioeconomic dynamics in the United States. The insights gained will inform decision-making and policy formulation in the post-pandemic era.
 
+References
+U.S. Census Bureau website 
