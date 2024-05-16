@@ -1,11 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from scipy.stats import f_oneway
+from scipy.stats import ttest_ind
 
-
-Education_2018 = pd. read_csv("../data/Education_2018.csv")
-Education_2022 = pd. read_csv("../data/Education_2022.csv")
+# Read Data Files
+Education_2018 = pd.read_csv("data\Education_2018.csv")
+Education_2022 = pd.read_csv("data\Education_2022.csv")
 
 # Clean up the strings in the 'Label (Grouping)' column for both datasets
 Education_2018['Label (Grouping)'] = Education_2018['Label (Grouping)'].str.replace('\xa0','').str.strip()
@@ -35,8 +35,11 @@ for point in educational_points:
     if not index_2018.empty:
         index_2018 = index_2018[0]
         # Get the values from columns 2 and 3 for 2018 data
-        value_col2_2018 = Education_2018.iloc[index_2018, 1]
-        value_col3_2018 = Education_2018.iloc[index_2018, 2]
+        value_col2_2018 = Education_2018.iloc[index_2018, 1].replace('(X)', 'NaN').replace(',', '').strip()
+        value_col3_2018 = Education_2018.iloc[index_2018, 2].replace('(X)', 'NaN').replace(',', '').strip()
+        # Convert string to float
+        value_col2_2018 = float(value_col2_2018) if value_col2_2018 != 'NaN' else np.nan
+        value_col3_2018 = float(value_col3_2018) if value_col3_2018 != 'NaN' else np.nan
         # Add the point and its values to the dictionary for 2018 data
         selected_data_2018[point] = {"Value (Column 2)": value_col2_2018, "Value (Column 3)": value_col3_2018}
     
@@ -44,51 +47,40 @@ for point in educational_points:
     index_2022 = Education_2022[Education_2022['Label (Grouping)'] == point].index
     if not index_2022.empty:
         index_2022 = index_2022[0]
-        # Get the values from columns 2 and
+        # Get the values from columns 2 and 3 for 2022 data
+        value_col2_2022 = Education_2022.iloc[index_2022, 1].replace('(X)', 'NaN').replace(',', '').strip()
+        value_col3_2022 = Education_2022.iloc[index_2022, 2].replace('(X)', 'NaN').replace(',', '').strip()
+        # Convert string to float
+        value_col2_2022 = float(value_col2_2022) if value_col2_2022 != 'NaN' else np.nan
+        value_col3_2022 = float(value_col3_2022) if value_col3_2022 != 'NaN' else np.nan
+        # Add the point and its values to the dictionary for 2022 data
+        selected_data_2022[point] = {"Value (Column 2)": value_col2_2022, "Value (Column 3)": value_col3_2022}
 
-# Print unique values in the 'Label (Grouping)' column after cleaning for both years
-print("Unique values in the 'Label (Grouping)' column for 2018:")
-print(Education_2018['Label (Grouping)'].unique())
+# Print the dictionaries
+print("Selected Data for 2018:")
+print(selected_data_2018)
+print("\nSelected Data for 2022:")
+print(selected_data_2022)
 
-print("\nUnique values in the 'Label (Grouping)' column for 2022:")
-print(Education_2022['Label (Grouping)'].unique())
+# Perform t-test
+values_2018 = [data['Value (Column 2)'] for data in selected_data_2018.values()]
+values_2022 = [data['Value (Column 2)'] for data in selected_data_2022.values()]
 
-print("2018 Education Data:")
-for point, values in selected_data_2018.items():
-    print(point)
-    print("Value (Column 2) - 2018:", values["Value (Column 2)"])
-    print("Value (Column 3) - 2018:", values["Value (Column 3)"])
-    print()
-
-# Print the dictionary for 2022 data
-print("2022 Education Data:")
-for point, values in selected_data_2022.items():
-    print(point)
-    print("Value (Column 2) - 2022:", values["Value (Column 2)"])
-    print("Value (Column 3) - 2022:", values["Value (Column 3)"])
-    print()  
-
-
-# Define columns of interest
-columns_of_interest = ["Madison County, Alabama!!Male!!Estimate", "Madison County, Alabama!!Female!!Estimate"]
-
-# Replace '(X)' and 'N' with NaN
-for col in columns_of_interest:
-    Education_2018[col] = Education_2018[col].replace(['(X)', 'N'], np.nan)
-    Education_2022[col] = Education_2022[col].replace(['(X)', 'N'], np.nan)
-
-# Remove commas and convert to numeric
-for col in columns_of_interest:
-    Education_2018[col] = Education_2018[col].str.replace(',', '').astype(float)
-    Education_2022[col] = Education_2022[col].str.replace(',', '').astype(float)
-
-# Drop rows with NaN values
-Education_2018 = Education_2018.dropna(subset=columns_of_interest)
-Education_2022 = Education_2022.dropna(subset=columns_of_interest)
-
-# Perform the one-way ANOVA test
-f_statistic, p_value = f_oneway(Education_2018[columns_of_interest[0]], Education_2022[columns_of_interest[0]])
-
-# Print the results
-print("F Statistic:", f_statistic)
+t_statistic, p_value = ttest_ind(values_2018, values_2022, nan_policy='omit')
+print("\nT-statistic:", t_statistic)
 print("P-value:", p_value)
+
+# Visualize the data with bar graphs
+points = list(selected_data_2018.keys())
+bar_width = 0.35
+index = np.arange(len(points))
+plt.figure(figsize=(10, 6))
+plt.bar(index, values_2018, bar_width, label='2018')
+plt.bar(index + bar_width, values_2022, bar_width, label='2022')
+plt.xlabel('Educational Points')
+plt.ylabel('Values')
+plt.title('Comparison of Educational Data between 2018 and 2022')
+plt.xticks(index + bar_width / 2, points, rotation=90)
+plt.legend()
+plt.tight_layout()
+plt.show()
