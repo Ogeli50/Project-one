@@ -1,10 +1,10 @@
 Based on the analysis of socioeconomic data between 2018 and 2022, several key insights can be derived:
 
 Percentage Changes:
-
 The population aged 16 years and over in the labour markets increased by approximately 10.31% between the two years.
 
 However, there was a decrease in the number of unemployed individuals by approximately 8.66%.
+
 Median household income saw a significant increase of around 26.96%.
 
 The percentage of individuals with earnings, Social Security, and retirement income also saw increases.
