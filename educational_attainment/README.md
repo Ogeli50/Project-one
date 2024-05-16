@@ -1,23 +1,47 @@
-Analyzing Educational Transformations in the Madison County, Alabama Workforce: A Pre- and Post-COVID Analysis 
-                                            by Ogechukwu Tasie
+# Analyzing Socioeconomic Dynamics Pre and Post COVID-19
 
-Brief Overview
-This research offers a detailed look into how the workforce has changed in Madison County, Alabama, examining key factors before and after COVID-19. It seeks to understand educational trends and use this insight to create strategies that boost economic resilience and ensure fair opportunities in the region. 
+## Overview
 
-Methodology
-Data was extracted from the  U.S. Census Bureau website for the years 2018 and 2022 
+In this analysis, I explored the socioeconomic dynamics in Madison County, Alabama, before and after the COVID-19 pandemic using datasets from the years 2018 and 2022. The goal is to understand how various aspects of employment, income, and other socioeconomic factors have evolved over time and how they have been influenced by the pandemic.
 
-Analysis
-I compared educational factors between 2018 and 2022 to identify trends, problems, and disparities. Using Python, I performed a t-test to compare the educational data for these two years. Additionally, I used Excel to compare the impact of educational attainment on the median earnings of residents in Madison County aged 25 and above for the years 2018 and 2022. I also assessed the effect of race on education and compared the educational attainment of males and females before and after COVID-19.
+## Approach
 
-Visualization and Interpretation
-I utilized visualizations, such as bar graphs, to illustrate the findings effectively. These visualizations help interpret the data more effectively regarding the impact of COVID-19 on educational attainment.
+### Data Collection
+We gathered datasets from the [U.S. Census Bureau website](https://www.census.gov/) for the years 2018 and 2022. These datasets contain information on employment status, income and benefits, and other relevant socioeconomic indicators.
 
-Results and Discussions
-This study thoroughly analyzes changes in Madison, Alabama, focusing on essential factors before and after the COVID-19 pandemic. The research compared educational data for 2018 and 2022, Median Earnings in Madison County, Alabama, for a population aged 25 years and above, the impact of race on educational attainment, and the overall comparison of male and female educational attainment pre- and post-COVID for 2018 and 2022. The T-test was used to analyze the educational data between 2018 and 2022. The t-statistic and the p-value are typically associated with a t-test, a statistical test used to determine if there is a significant difference between the means of the two groups. Thus, comparing the two groups, we found that a t-statistic of -0.1564 indicates that the means of the two groups are very close to each other. Since it's close to zero, there may not be a significant difference between the means. Also, a p-value of 0.8808 means that if there were no real difference between the 2018 and 2022 data, there is an 88.08% chance of observing a t-statistic as the one calculated. Utilizing Excel to assess the impact of education on the median earnings of residents in Madison County aged 25 years and older, the result shows that obtaining a graduate degree in 2018 and 2022 yielded more earnings for residents aged 25 years and older. The overall trend is that the higher you go in education, the more earnings you make, according to the data. I also looked at the impact of race on educational attainment using Excel and found that the white population had more improvement in educational attainment than other races. Also, the black race alone had the second-highest educational attainment. Also, compared using Excel, educational attainment for males and females pre- and post-COVID-19 found that the population aged 25 years and up for females in 2022 was higher in educational attainment.
+### Data Cleaning and Preparation
+The datasets were cleaned and preprocessed to ensure consistency, accuracy, and compatibility for analysis. This included handling missing values, standardizing formats, and aligning variables across both datasets.
 
-Conclusion and recommendations 
-This data illuminates a promising increase in education levels, a trend that bodes well for the future. This upward trajectory in educational attainment not only paves the way for crafting additional strategies for boosting graduation rates, obtaining more advanced degrees, and reaching higher educational milestones for all racial groups but also holds the potential to strengthen the region economically. By ensuring everyone has equal chances, this trend can foster a sense of optimism and hope for a more prosperous future.
+### Key Socioeconomic Indicators
+The following socioeconomic indicators were selected for comparison:
+- Population 16 years and over in the labour market
+- Employed
+- Unemployed
+- Median household income (dollars)
+- With earnings
+- With Social Security
+- With retirement income
+- With Food Stamp/SNAP benefits in the past 12 months
 
-References
-U.S. Census Bureau website 
+### Comparison and Analysis
+Key socioeconomic indicators between the two years were compared to identify trends, patterns, and disparities. This involved analyzing changes in employment rates, income levels, and benefits utilization.
+
+### Visualization and Interpretation
+Visualizations such as bar graphs and heatmaps were created to illustrate the findings effectively. These visualizations help interpret the data and communicate insights regarding the impact of COVID-19 on various socioeconomic factors.
+
+## Findings
+
+### Percentage Changes
+Based on the analysis of socioeconomic data between 2018 and 2022, several key insights were derived:
+
+- **Population 16 years and over in the labor markets** increased by approximately **10.31%**.
+- **Number of unemployed individuals** decreased by approximately **8.66%**.
+- **Median household income** saw a significant increase of around **26.96%**.
+- The percentage of individuals with earnings, Social Security, and retirement income also saw increases.
+- There was a notable decrease of about **24.20%** in the percentage of individuals receiving Food Stamp/SNAP benefits due to unemployment.
+
+Overall, the data suggests positive trends in various socioeconomic factors over the four-year period, including increases in employment, income, and social benefits utilization, alongside a decrease in unemployment. These insights can provide valuable information for policymakers, researchers, and stakeholders involved in socioeconomic development and decision-making processes.
+
+## Outcome
+
+By conducting this analysis, I aim to provide a comprehensive understanding of how the COVID-19 pandemic has affected socioeconomic dynamics in Madison County, Alabama. The insights gained will inform decision-making and policy formulation in the post-pandemic era.
