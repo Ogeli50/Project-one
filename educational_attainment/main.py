@@ -1,19 +1,21 @@
 import pandas as pd
 from scipy.stats import f_oneway
 import matplotlib.pyplot as plt
+<<<<<<< HEAD
 Education_2018 = pd. read_csv("data/Education_2018.csv")
 Education_2022 = pd. read_csv("data/Education_2022.csv")
+=======
+import numpy as np
+from scipy.stats import f_oneway
+
+
+Education_2018 = pd. read_csv("../data/Education_2018.csv")
+Education_2022 = pd. read_csv("../data/Education_2022.csv")
+>>>>>>> d6d772c5f9438eeeb40722784e927c22c8c32338
 
 # Clean up the strings in the 'Label (Grouping)' column for both datasets
 Education_2018['Label (Grouping)'] = Education_2018['Label (Grouping)'].str.replace('\xa0','').str.strip()
 Education_2022['Label (Grouping)'] = Education_2022['Label (Grouping)'].str.replace('\xa0','').str.strip()
-
-# Print unique values in the 'Label (Grouping)' column after cleaning for both years
-print("Unique values in the 'Label (Grouping)' column for 2018:")
-print(Education_2018['Label (Grouping)'].unique())
-
-print("\nUnique values in the 'Label (Grouping)' column for 2022:")
-print(Education_2022['Label (Grouping)'].unique())
 
 # Selected points
 educational_points = [
@@ -50,7 +52,13 @@ for point in educational_points:
         index_2022 = index_2022[0]
         # Get the values from columns 2 and
 
-      # Print the dictionary for 2018 data
+# Print unique values in the 'Label (Grouping)' column after cleaning for both years
+print("Unique values in the 'Label (Grouping)' column for 2018:")
+print(Education_2018['Label (Grouping)'].unique())
+
+print("\nUnique values in the 'Label (Grouping)' column for 2022:")
+print(Education_2022['Label (Grouping)'].unique())
+
 print("2018 Education Data:")
 for point, values in selected_data_2018.items():
     print(point)
@@ -65,6 +73,7 @@ for point, values in selected_data_2022.items():
     print("Value (Column 2) - 2022:", values["Value (Column 2)"])
     print("Value (Column 3) - 2022:", values["Value (Column 3)"])
     print()  
+<<<<<<< HEAD
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -73,6 +82,9 @@ from scipy.stats import f_oneway
 # Read the CSV files
 Education_2018 = pd.read_csv("../data/Education_2018.csv")
 Education_2022 = pd.read_csv("../data/Education_2022.csv")
+=======
+
+>>>>>>> d6d772c5f9438eeeb40722784e927c22c8c32338
 
 # Define columns of interest
 columns_of_interest = ["Madison County, Alabama!!Male!!Estimate", "Madison County, Alabama!!Female!!Estimate"]
