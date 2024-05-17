@@ -1,9 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 import os
 from scipy import stats
 import numpy as np
+import seaborn as sns
+
 
 # Load and clean datasets
 emp2018 = pd.read_csv("../data/employment2018.csv")
@@ -75,12 +76,16 @@ pd.DataFrame.from_dict(percentage_changes, orient='index', columns=['Percentage 
 keys = list(percentage_changes.keys())
 values = list(percentage_changes.values())
 
-plt.figure(figsize=(10, 5))
-sns.barplot(x=keys, y=values)
-plt.xticks(rotation=45)
-plt.xlabel('Socioeconomic Factors')
-plt.ylabel('Percentage Change')
-plt.title('Percentage Change in Socioeconomic Factors (2018-2022)')
+plt.figure(figsize=(12, 6))
+sns.set_theme(style="whitegrid")
+colors = sns.color_palette("Set2", len(keys))  # Set a color palette
+sns.barplot(x=keys, y=values, palette=colors)
+
+plt.xticks(rotation=45, ha='right', fontsize=12)
+plt.yticks(fontsize=12)
+plt.xlabel('Socioeconomic Factors', fontsize=14)
+plt.ylabel('Percentage Change (%)', fontsize=14)
+plt.title('Percentage Change in Socioeconomic Factors (2018-2022)', fontsize=16)
 plt.tight_layout()
 
 # Save the plot as an image file
