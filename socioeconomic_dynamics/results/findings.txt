@@ -11,8 +11,5 @@ The percentage of individuals with earnings, Social Security, and retirement inc
 
 Conversely, there was a notable decrease of about 24.20% in the percentage of individuals receiving Food Stamp/SNAP benefits due to unemployment.
 
-There is a strong positive correlation (correlation coefficient ≈ 0.999) between the socioeconomic factors in 2018 and 2022, indicating a consistent trend over the four-year period.
-Linear Regression:
-
-Linear regression analysis was performed for each socioeconomic factor. The analysis includes the slope, intercept, R-squared value, and p-value for each regression model, indicating the direction and strength of the relationship between the years 2018 and 2022.
+direction and strength of the relationship between the years 2018 and 2022.
 Overall, the data suggests positive trends in various socioeconomic factors over the four-year period, including increases in employment, income, and social benefits utilization, alongside a decrease in unemployment. These insights can provide valuable information for policymakers, researchers, and stakeholders involved in socioeconomic development and decision-making processes.
