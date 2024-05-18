@@ -1,36 +1,33 @@
-# Employed_vs_Unemployed - An Analysis of Alabama's Labor Market (2018-2024)
+## Alabama's Labor Market: A Look at Employment Trends (2018-2024)
 
- This report, compiled by Joy Ragland, dives into Alabama's unemployment trends from 2018 to 2024, with a particular focus on the impact of the COVID-19 pandemic. The analysis leverages data from the Bureau of Labor Statistics (bls.gov) to assess changes in the labor market, identify vulnerable industries, and evaluate support programs. Additionally, consumer reports are incorporated to understand the cost of living and necessary wages for Alabamians.
+By: Joy Ragland
 
- # Key Objectives:
+## Executive Summary
 
-Pre vs. Post-Pandemic Unemployment: Compare unemployment rates before and after the COVID-19 outbreak to gauge its impact.
+This report delves into Alabama's employment and unemployment landscape from 2018 to 2024. Analyzing these trends is crucial for understanding the state's economic health and potential for future growth. The data reveals fluctuations in employment figures, highlighting the dynamism of Alabama's economy and the need for adaptation.
 
-Industry Vulnerability: Identify industries that experienced disproportionate job losses due to the pandemic.
+## Key Focus Areas
 
-Cost of Living Analysis: Integrate consumer reports to understand the cost of living in Alabama and determine the necessary wage (hourly or yearly) for a comfortable standard of living.
+- Trend Analysis: We explore central tendencies (mode, median) and variability (range) of employment and unemployment rates (in thousands) over the specified period.
+- Economic Transformation: We identify trends that signal economic expansion or contraction, pinpointing opportunities for economic diversification.
+- Employer Strategies: We propose actionable strategies for employers to thrive in the evolving workforce landscape, including the implementation of inclusive hiring practices.
 
+## Data Insights
 
-# Data Analysis:
+This report presents data on employment and unemployment rates (in thousands) using mode, median, and range. This analysis provides valuable insights into the stability and volatility of Alabama's labor market over the past six years.
 
- The report employs a comprehensive dataset encompassing Alabama's employment and unemployment trends alongside consumer reports categorized by group and year (data source: bls.gov). This data is then visualized using various tools to enhance clarity:
+## Building a Responsive Workforce
 
-APIs (Application Programming Interfaces): Streamline data integration for a cohesive analysis.
+To navigate the dynamic workforce landscape, Alabama's employers should prioritize the following:
 
-Bar and Pie Charts: Present unemployment rates and industry breakdowns in a clear and easily digestible format.
+- Adaptability: Embrace flexibility and responsiveness to economic shifts to ensure business continuity.
+- Inclusive Hiring: Implement inclusive hiring practices to cultivate a diverse workforce and tap into a broader talent pool, fostering innovation and resilience.
 
-Scatter Plots: Explore potential relationships between unemployment rates, cost of living, and wages.
+## Conclusion
 
+Understanding employment trends in Alabama is critical for businesses and policymakers alike. This report offers valuable insights and actionable strategies for employers to navigate economic fluctuations and position themselves for long-term success. By embracing adaptability and inclusivity, businesses can contribute to a more resilient and transformed Alabama economy.
 
-# Expected Outcomes:
+## References: 
 
- By analyzing the data and visualizations, this report aims to provide valuable insights into:
+https://beta.bls.gov/dataViewer/view/timeseries/SMS01000000000000001;jsessionid=AB37897FDE8F5F5082521EE90437D5BF
 
-The current state of Alabama's labor market, particularly its resilience or vulnerability in the face of the pandemic.
-Industries requiring specific support for recovery.
-
-The cost of living in Alabama and the necessary wages to meet those expenses.
-
-# Conclusion
-
- Through this comprehensive analysis, I hope you gain a deeper understanding of Alabama's economic landscape and formulate informed strategies to promote a robust recovery and long-term economic growth. We encourage you to explore the data and visualizations provided to gain a richer understanding of Alabama's employment situation and its broader economic implications.
